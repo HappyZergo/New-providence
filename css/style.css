@@ -19,9 +19,9 @@ h6 {
 }
 
 h1 {
-    font-size: 62px;
+    font-size: 64px;
     line-height: 72px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     margin-top: 20px;
 }
 
@@ -42,19 +42,19 @@ h4 {
     font-size: 26px;
     line-height: 34px;
     font-weight: 300;
-    margin-bottom: 25px;
+    margin-bottom: 36px;
 }
 
 p.subtitle {
     font-size: 14px;
-    letter-spacing: 0.1em;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 p {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 28px;
+    padding-right: 4px;
     color: #8c8f94;
 }
 
@@ -81,6 +81,8 @@ ul>li {
     border-radius: 30px;
     text-decoration: none;
     color: #26272d;
+    width: 205px;
+    height: 50px;
 }
 
 .btn-blue {
@@ -108,19 +110,23 @@ ul>li {
     left: 0;
     top: 0;
     width: 100%;
-    padding: 44px 0;
+    padding: 46px 0;
     font-size: 16px;
     z-index: 10;
     background-color: transparent;
+}
+#main .container{
+    padding: 0px;
 }
 
 #main #navigation {
     color: #26272d;
     text-decoration: none;
     position: absolute;
-    top: 50%;
-    margin-top: -16px;
+    top: 40%;
+    padding-left: 4px;
     z-index: 2;
+    width: 36px;
 }
 
 #main #navigation:hover {
@@ -130,10 +136,28 @@ ul>li {
 #main ul {
     padding: 0;
 }
+#main .right{
+    padding-left: 39px;
+}
+#main .left{
+    padding-top: 11px;
+}
+
+#main .right li{
+    margin-left: 39px;
+    margin-right: -10px;
+}
+
+#main .btn i{
+    padding-right: 16px;
+    font-size: 20px;
+    padding-top: 4px;
+}
+
 
 #main ul li {
     display: inline-block;
-    margin-right: 40px;
+    margin-left: 36px;
 }
 
 #main ul li a {
@@ -151,16 +175,25 @@ ul>li {
 
 #main ul li .btn-blue {
     color: #ffffff;
+    height: 44px;
+    width: 128px;
+}
+#main span{
+    padding-right: 4px;
 }
 
 #main ul li .btn-blue:hover {
     color: #ffffff;
 }
 
+#main .text-center{
+    padding-top: 13px;
+}
+
 /***********head******************/
 
 #head {
-    padding: 200px 0 510px;
+    padding: 174px 0 510px;
     background-image: url("../img/banner_background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -171,61 +204,111 @@ ul>li {
 
 #head .head_iphone {
     position: absolute;
-    bottom: -310px;
+    bottom: -298px;
     left: 50%;
-    margin-left: -185px;
+    margin-left: -186px;
+}
+#head .col-md-8{
+    padding:unset;
+}
+#head p{
+    padding-bottom: 48px;
+}
+
+#head i{
+    
+padding-top: 6px;
+    
+padding-right: 14px;
 }
 
 /******************************features*******************************/
 #features {
     padding: 120px 0;
+    padding-bottom: 135px;
 }
 
 #features .feature {
-    padding: 0px 5%;
+    padding: 0px 4%;
 }
 
 #features .feature .f-icon {
-    margin-bottom: 48px;
+    margin-bottom: 34px;
+}
 
+#features .feature .f-icon {
+    margin-bottom: 36px;
 }
 
 #features .feature .f-icon i {
-    font-size: 42px;
+    font-size: 52px;
     color: #267df4;
+}
+#features .feature-item2{
+    padding-left: 34px;
+}
+
+#features p{
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 21px;
+}
+
+#features .f-description{
+    padding-right: 7px;
 }
 
 
 /******************************iphonefeatures*******************************/
 #iphone_features {
     position: relative;
-    padding: 200px 0;
+    padding: 219px 0;
 }
 
 #iphone_features .iphone {
     position: absolute;
-    bottom: 20px;
-    right: 50%;
+    /* bottom: 0px; */
+    top: 10%;
+    right: 48.5%;
 }
 
 #iphone_features .col-md-5 {
-    padding-right: 40px;
+    padding-right: 0px;
 }
 
 #iphone_features .iphone_button {
-    padding-top: 75px;
-    font-size: 16px;
+    padding-top: 37px;
+    padding-left: 2px;
 }
 
 #iphone_features .iphone_button a {
-    padding: 6px 18px;
-    margin-right: 20px;
-    margin-bottom: 18px;
+    padding: 9px 25px;
+    margin-right: 16px;
 }
 
 #iphone_features .iphone_button a i {
-    margin-left: 50px;
-    font-size: 14px;
+    margin-left: 43px;
+    font-size: 13px;
+}
+#iphone_features p{
+    padding-bottom: 20px;
+}
+
+#iphone_features .btn.btn-blue.try{
+    width: 202px;
+    height: 42px;
+}
+#iphone_features .btn.learn{
+    width: 145px;
+    height: 50px;
+    padding-top: 13px;
+}
+
+#iphone_features h2{
+    
+margin: 0px 0px;
+    
+padding-bottom: 66px;
 }
 
 /******************************iphonefeatures*******************************/
@@ -238,29 +321,36 @@ ul>li {
 
 #map_features .map {
     position: absolute;
-    left: 42%;
+    top: 24.2%;
+    left: 47.4%;
 }
 
 #map_features .col-md-5 {
-    padding-right: 70px;
+    padding-left: 0px;
 }
 
 #map_features .col-md-5 h2 {
-    margin-top: 0px;
+    margin: 15px 0px;
+    padding-bottom: 45px;
 }
 
 #map_features .col-md-5 p {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 #map_features .partners p {
-    font-size: 12px;
-    padding: 20px 0px;
+    font-size: 14px;
+    padding-top: 23px;
+    padding-bottom: 0px;
 }
 
 #map_features .partners img {
-    margin-right: 30px;
+    margin-right: 16px;
+    padding-top: 12px;
 }
+
+
+
 
 /*******************iphone_screens*************************/
 
@@ -274,15 +364,19 @@ ul>li {
 #iphone_screens hr {
     width: 50px;
     height: 2px;
-    margin: 40px auto;
+    margin: 35px auto;
     background-color: #267df4;
 }
 
 #iphone_screens h2 {
+    font-size: 45px;
+    padding-left: 7px;
+    margin-top: 17px;
     margin-bottom: 0px;
 }
 
 #iphone_screens .images-list {
+    margin-top: 22px;
     width: 100%;
     position: relative;
 }
@@ -300,12 +394,12 @@ ul>li {
 
 #iphone_screens .images-list li:nth-child(1) {
     left: 50%;
-    margin-left: -880px;
+    margin-left: -883px;
 }
 
 #iphone_screens .images-list li:nth-child(2) {
     left: 50%;
-    margin-left: -530px;
+    margin-left: -533px;
 }
 
 #iphone_screens .images-list li:nth-child(4) {
@@ -322,7 +416,7 @@ ul>li {
     width: 395px;
     top: 0;
     left: 50%;
-    margin-left: -193px;
+    margin-left: -196px;
     box-shadow: none;
 }
 
@@ -333,16 +427,22 @@ ul>li {
 /**********************ready_to_buy*********************************/
 
 #ready_to_buy {
-    padding: 150px 0px;
+    padding: 147px 0px;
     background-color: #f4f4f5;
+}
+#ready_to_buy  h2{
+    letter-spacing: 1px;
+    margin-bottom: 44px;
 }
 
 #ready_to_buy p {
     font-size: 12px;
+    letter-spacing: 1.5px;
+    margin-bottom: 13px;
 }
 
 #ready_to_buy form {
-    margin-bottom: 45px;
+    margin-bottom: 57px;
 }
 
 #ready_to_buy .form_group {
@@ -354,8 +454,10 @@ ul>li {
 #ready_to_buy .form_group a {
     position: absolute;
     font-size: 18px;
-    top: 6px;
-    right: 6px;
+    width: 164px;
+    height: 43px;
+    top: 3px;
+    right: 4px;
 }
 
 #ready_to_buy .btn-green i {
@@ -375,24 +477,23 @@ input[type="email"] {
 }
 
 #ready_to_buy .btn-dark {
-    width: 216px;
-    height: 70px;
+    width: 209px;
+    height: 60px;
+    padding-top: 6px;
 }
 
 #ready_to_buy .btn-dark i {
-    font-size: 42px;
+    font-size: 28px;
     display: inline-block;
     margin-left: -15px;
-    margin-right: 20px;
-
+    margin-right: 25px;
 }
 
 #ready_to_buy .btn-dark span {
-    margin-top: 3px;
+    margin-top: -17px;
     font-size: 12px;
     display: inline-block;
     text-align: left;
-
 }
 
 #ready_to_buy .btn-dark span b {
@@ -413,7 +514,8 @@ input[type="email"] {
 }
 
 #customers .star-rating {
-    margin-top: 17px;
+    margin-top: 26px;
+    letter-spacing: 4px;
 }
 
 #customers .star-rating .gold-star {
@@ -492,11 +594,11 @@ input[type="email"] {
 }
 
 #customers .carousel-control.left {
-    left: -100px;
+    left: -54%;
 }
 
 #customers .carousel-control.right {
-    right: -100px;
+    right: -54%;
 }
 
 /*******************plan************************/
