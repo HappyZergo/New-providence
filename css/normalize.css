@@ -98,6 +98,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  color: #267df4;
 }
 
 /* Text-level semantics
