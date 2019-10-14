@@ -68,9 +68,8 @@ ul {
 }
 
 ul>li {
-
-    list-style: none;
-    direction: rtl;
+list-style: none;
+direction: rtl;
 }
 
 /***********Buttons************/
@@ -116,27 +115,29 @@ ul>li {
 
 /*************** MAIN *************/
 #main {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-    padding: 43px 0;
+    padding-top: 43px;
     font-size: 16px;
     z-index: 10;
-    background-color: transparent;
+    background-color: white;
 }
 #main .container{
     padding: 0px;
+    z-index: 10000;
 }
 
 #main #navigation {
     color: #26272d;
     text-decoration: none;
     position: absolute;
-    top: 40%;
+    top: 52%;
     padding-left: 4px;
     z-index: 2;
     width: 36px;
+
 }
 
 #main #navigation:hover {
@@ -148,6 +149,7 @@ ul>li {
 }
 #main .right{
     padding-left: 39px;
+    align-items: center;
 }
 #main .left{
     padding-top: 11px;
